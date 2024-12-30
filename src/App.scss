@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+
+  @media (min-width: 780px) {
+    max-width: 990px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 1200px;
+  }
+
+  @media (min-width: 1680px) {
+    max-width: 1440px;
+  }
+}
+
+.main-heading {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4c5b68;
+
+  @media (min-width: 780px) {
+    font-size: 40px;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 50px;
+  }
+}
